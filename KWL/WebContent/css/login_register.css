@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+div.login_title{
+	padding:15px 0 0 30px;
+	height:40px;
+	width:320px;
+}
+div.login_label{
+	height:35px;
+	width:50px;
+	float:left;
+}
+div.close_button{
+	margin:0 20px 0 0;
+	height:25px;
+	width:25px;
+	float:right;
+}
+div.line{
+	height:2px;
+	width:350px;
+}
+div.login_username_label{
+	padding-left:30px;
+	height:30px;
+	width:70px;
+	margin: 10px 0 0 0;
+}
+div.login_username_input{
+	padding-left:30px;
+	height:40px;
+	width:250px;
+}
+div.login_password_bar{
+	padding-left:30px;
+	height:30px;
+	width:320px;
+	margin: 0 0 0 0;
+}
+div.login_password_label{
+	height:30px;
+	width:70px;
+	float:left;
+}
+div.login_password_forget_label{
+	height:20px;
+	width:150px;
+	float:right;
+	margin: 5px 10px 0 0;
+}
+div.login_password_input{
+	padding-left:30px;
+	height:40px;
+	width:250px;
+}
+div.login_warning_label{
+	padding-left:30px;
+	height:30px;
+	width:100px;
+	display:none;
+}
+div.login_register_login_bar{
+	padding-left:30px;
+	height:40px;
+	width:320px;
+}
+div.login_register{
+	height:40px;
+	width:100px;
+	float:left;
+}
+div.login_button{
+	margin-left:50px;
+	height:40px;
+	width:150px;
+	float:left;
+}
+input.login_input{
+	height:25px;
+	width:250px;
+	border: 1px solid blue;
+}
+/**
+*----------------下面是注册--------------
+*/
+div.register_title{
+	padding:15px 0 0 30px;
+	height:40px;
+	width:320px;
+}
+div.register_label{
+	height:35px;
+	width:80px;
+	float:left;
+}
+div.register_username_label{
+	padding-left:30px;
+	height:30px;
+	width:70px;
+	margin: 10px 0 0 0;
+}
+div.register_username_input{
+	padding-left:30px;
+	height:40px;
+	width:250px;
+}
+div.register_password_label{
+	height:30px;
+	width:70px;
+	margin:0 0 0 30px;
+}
+div.register_password_input{
+	padding-left:30px;
+	height:40px;
+	width:250px;
+}
+div.register_retype_password_label{
+	height:30px;
+	width:100px;
+	margin:0 0 0 30px;
+}
+div.register_retype_password_input{
+	padding-left:30px;
+	height:40px;
+	width:250px;
+}
+div.register_register_bar{
+	padding-left:30px;
+	height:40px;
+	width:320px;
+}
+div.register_login{
+	height:25px;
+	width:70px;
+	float:left;
+}
+div.register_button{
+	margin-left:50px;
+	height:40px;
+	width:150px;
+	float:left;
+}
+input.register_input{
+	height:25px;
+	width:250px;
+	border: 1px solid blue;
+}
+
+
+/*******************注册样式************************/
+.inputtitle{
+color:#486b92;
+font-size:14pt;
+font-weight:bold;}
+.inputedit{
+margin:3px 0px 0px 25px;
+background:url(../images/userinputedit.png) no-repeat;
+font-size:14pt;
+padding:0px 4px;
+border:0px;
+width:292px;
+height:36px;}

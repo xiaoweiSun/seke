@@ -1,0 +1,15 @@
+1、分析网页结构信息，获取webpattern
+2、针对webpattern解析大量格式化网页，提取信息
+
+webpattern以JSON形式存储为字符串，对应的接口为RuleClass
+
+分析网页函数和参数   parse() RuleClass
+	中间过度为RuleClass->json->xml->json->RuleClass
+解析信息函数和参数   scheme(RuleClass rc);
+
+将整个工程顺序组合的前提
+webpattern 解析出结果后，存放于对应的表中，表中数据按照column=key,value=record的形式组织起来
+languagepattern 不能跨表解析数据 可以针对多个表解析内容（即每次languagepattern只能针对一个webpattern的结果运行）
+
+只需要webpattern下生成新的表格（表名考虑直接用对应的webpatternID)
+可根据表的column项来确定language需要解析的是位于哪几个表中的内容

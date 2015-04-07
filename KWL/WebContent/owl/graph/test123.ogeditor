@@ -1,0 +1,21 @@
+<g name="root" uri="http://knowware.seforge.org/onto/">
+	<cls n="cls1" x="100" y="101" w="120" h="50" c="16030750">
+		<dpro>
+			<property name="age" range="string"/>" 
+		</dpro>
+		<opro>
+			<property name="belong" tar="cls2"/>
+		</opro>
+		<ind>
+			<individual name="ind1" belong="ind2" age="12"/>
+		</ind>
+	</cls>
+	<cls n="cls2" x="336" y="106" w="120" h="50" c="16030750">
+		<dpro/>
+		<opro/>
+		<ind>
+			<individual name="ind2"/>
+		</ind>
+	</cls>
+	<rel n="belong" f="cls1" t="cls2" i="edge:1|Relation"/>
+</g>

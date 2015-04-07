@@ -1,0 +1,16 @@
+<g name="root" uri="http://knowware.seforge.org/onto/">
+  <c n="Bird" x="463" y="123" w="120" h="50" c="16030750"/>
+  <c n="Dog" x="82" y="349" w="120" h="50" c="16030750"/>
+  <c n="LivingThing" x="290" y="397" w="120" h="50" c="16030750"/>
+  <c n="Query1" x="11" y="424" w="120" h="50" c="16030750"/>
+  <c n="Animal" x="533" y="51" w="120" h="50" c="16030750"/>
+  <c n="Image" x="19" y="27" w="120" h="50" c="16030750"/>
+  <c n="ImageRegion" x="341" y="531" w="120" h="50" c="16030750"/>
+  <r n="subClassOf" f="Bird" t="LivingThing" i="edge:4|Relation"/>
+  <r n="subClassOf" f="Animal" t="LivingThing" i="edge:2|Relation"/>
+  <r n="subClassOf" f="Dog" t="LivingThing" i="edge:1|Relation"/>
+  <r n="isAbout" f="ImageRegion" t="LivingThing" i="edge:6|Relation"/>
+  <r n="subClassOf" f="Bird" t="Animal" i="edge:3|Relation"/>
+  <r n="subClassOf" f="Dog" t="Animal" i="edge:0|Relation"/>
+  <r n="hasImageRegion" f="Image" t="ImageRegion" i="edge:5|Relation"/>
+</g>

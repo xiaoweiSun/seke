@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+table { 
+    padding: 0; 
+    margin: 0; 
+}
+
+th { 
+    font: bold 11pt "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #4f6b72; 
+    border: 1px solid #C1DAD7; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-align: left; 
+    width : 100px;
+    padding: 6px 6px 6px 12px;
+	text-align:center;
+} 
+
+
+
+.clatd td{ 
+    border: 1px solid #C1DAD7; 
+    background: #fff; 
+    font-size:12pt; 
+    padding: 6px 0px; 
+    width : 100px;
+    color: #4f6b72;
+	text-align:center;
+} 
+.tdboder{
+border:0px;}
+
+.borderleftitem{
+border-bottom:1px solid #C1DAD7; border-left:1px solid #C1DAD7; border-top:1px solid #C1DAD7; padding:6px 0px;}
+.borderrightitem{
+border-bottom:1px solid #C1DAD7; border-right:1px solid #C1DAD7; border-top:1px solid #C1DAD7; width:85px;}

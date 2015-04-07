@@ -1,0 +1,10 @@
+<g name="root">
+  <c n="from" x="83" y="100" w="100" h="40" c="16776960"/>
+  <c n="to" x="484" y="135" w="100" h="40" c="16776960"/>
+  <r n="edge" f="from" t="to" i="edge:1|Relation"/>
+  <g name="firstclass">
+    <c n="policeman" x="104" y="42" w="100" h="40" c="16776960" f="from"/>
+    <c n="thief" x="560" y="144" w="100" h="40" c="16776960" f="to"/>
+    <r n="catch" f="policeman" t="thief" i="edge:2|edge"/>
+  </g>
+</g>
