@@ -30,7 +30,7 @@
 		<property name="initialSize" value="1" />
 		<property name="minIdle" value="1" />
 		<property name="maxIdle" value="5" />
-		<property name="maxWait" value="18000" />
+		<property name="maxWait" value="1000" />
 		<property name="defaultAutoCommit" value="false" />
 		<property name="validationQuery" value="SELECT 1" />
 	</bean>
@@ -54,5 +54,9 @@
 			</props>
 		</property>
 	</bean>
+	
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+    	<property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
 
 </beans>

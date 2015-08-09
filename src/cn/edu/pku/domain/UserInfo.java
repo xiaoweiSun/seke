@@ -2,7 +2,6 @@ package cn.edu.pku.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -10,7 +9,6 @@ import javax.persistence.Table;
 @Table(name="userinfo")
 public class UserInfo {
 
-	long id;
 	long userId;
 	String address;
 	String email;
@@ -18,16 +16,8 @@ public class UserInfo {
 	String name;
 	String city;
 	
-	@GeneratedValue
-	@Id
-	public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
-	
 	@Column(name="user_id")
+	@Id
 	public long getUserId() {
 		return userId;
 	}

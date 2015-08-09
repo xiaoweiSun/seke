@@ -31,40 +31,55 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed"
-				data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-				aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span> <span
-					class="icon-bar"></span> <span class="icon-bar"></span> <span
-					class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">找工作</a>
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">找工作</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<c:if test="${empty user }">
+					<form action="login" method="post" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input name="username" type="text" placeholder="Email"
+								class="form-control">
+						</div>
+						<div class="form-group">
+							<input name="password" type="password" placeholder="Password"
+								class="form-control">
+						</div>
+						<button type="submit" class="btn btn-success">登录</button>
+						<button type="button" class="btn btn-success" onclick="javascript:window.location.href='regist'">注册</button>
+					</form>
+				</c:if>
+				<c:if test="${not empty user }">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+								${user.username }
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<c:if test="${user.hasResume == 0 }">
+									<li><a href="addResume">添加简历</a></li>
+								</c:if>
+								<c:if test="${user.hasResume == 1 }">
+									<li><a href="checkResume">查看简历</a></li>
+								</c:if>
+								<li role="separator" class="divider"></li>
+								<li><a href="logout">退出</a></li>
+							</ul>
+						</li>
+					</ul>
+				</c:if>
+			</div>
+			<!--/.navbar-collapse -->
 		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<c:if test="${empty user }">
-				<form action="login" method="post" class="navbar-form navbar-right">
-					<div class="form-group">
-						<input name="username" type="text" placeholder="Email"
-							class="form-control">
-					</div>
-					<div class="form-group">
-						<input name="password" type="password" placeholder="Password"
-							class="form-control">
-					</div>
-					<button type="submit" class="btn btn-success">登录</button>
-					<button type="button" class="btn btn-success">注册</button>
-				</form>
-			</c:if>
-			<c:if test="${not empty user }">
-				<li class="dropdown navbar-right">
-					<a class="navbar-brand" href="#">${user.username }</a>
-				</li>
-			</c:if>
-		</div>
-		<!--/.navbar-collapse -->
-	</div>
 	</nav>
 
 	<div class="container">
@@ -78,5 +93,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</form>
 		</div>
 	</div><!-- /.container -->
+	<script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
