@@ -17,10 +17,8 @@
         http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
  
-    <!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
- 
     <!-- Scans within the base package of the application for @Components to configure as beans -->
-    <!-- @Controller, @Service, @Configuration, etc. -->
+    <!-- @Autowired,@Resource,@PostConstruct,@PreDestroy,@PersistenceContext,@Required -->
     <context:annotation-config/>
     <context:component-scan base-package="cn.edu.pku" />
  

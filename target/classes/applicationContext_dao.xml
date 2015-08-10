@@ -16,7 +16,7 @@
         http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-
+	<!-- mysql 配置文件-->
 	<context:property-placeholder location="classpath:jdbc.properties" />
 
 	<!-- 使用 BasicDataSource的数据源 -->
@@ -48,15 +48,10 @@
 			<props>
 				<prop key="hibernate.dialect">
 					org.hibernate.dialect.MySQLDialect
-					<!--根据需求可以选择 org.hibernate.dialect.MySQLInnoDBDialect -->
 				</prop>
 				<prop key="hibernate.show_sql">false</prop>
 			</props>
 		</property>
 	</bean>
 	
-    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
-    	<property name="sessionFactory" ref="sessionFactory"></property>
-    </bean>
-
 </beans>

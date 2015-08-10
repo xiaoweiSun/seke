@@ -84,10 +84,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<div class="container">
 		<div class="starter">
-			<form class="form-search">
+			<form action="search" method="post" class="form-search">
 				<div class="form-group">
-					<input type="text" class="input-medium search-query" placeholder="关键词">
-					<input type="text" class="input-medium search-query" placeholder="城市">
+					<input type="text" name="key" class="input-medium search-query" placeholder="关键词">
+					<input type="text" name="city" class="input-medium search-query" placeholder="城市">
 					<button type="submit" class="btn">Search</button>
 				</div>
 			</form>
