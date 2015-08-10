@@ -69,6 +69,7 @@ public class WebCrawler {
 						
 					}
 				}
+				out.close();
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

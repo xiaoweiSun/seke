@@ -81,6 +81,10 @@ function showTaskName(json) {
 </script>
 </head>
 <body>
+<a href="create.jsp">创建模板</a>
+<a href="extract.jsp">知识抽取</a>
+<a href="scan.jsp">结果查询</a>
+<br>
 <button onclick="listTask()">列出已有任务名称</button>
 任务名称<select id="task"></select>
 <button onclick="scan()">浏览内容</button>

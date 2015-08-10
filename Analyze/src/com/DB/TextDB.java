@@ -53,7 +53,7 @@ public class TextDB extends MyDB{
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f)));
 			String text ;
 			while ((text = br.readLine()) != null) {
-				String[] res = text.split(" ");
+				String[] res = text.split(" ",3);
 				resList.add(res);
 			}
 			br.close();
@@ -167,13 +167,14 @@ public class TextDB extends MyDB{
 		// TODO Auto-generated method stub
 		
 		try {
-			File file = new File(rootpath + "/" + path + "/" + time);
-			file.mkdir();
+			
+			File file = new File("/home/shawn/crawler/result/" + time);
+			file.mkdirs();
 			File res;
 			BufferedWriter bw;
 			
 			for (Record r:content) {
-				res = new File(rootpath +"/" + path + "/" + time + "/" + r.uri + ".txt");
+				res = new File("/home/shawn/crawler/result/" + time + "/" + r.uri + ".txt");
 				System.out.println(res.getAbsolutePath());
 				if (!res.exists()) {
 					res.createNewFile();
@@ -200,6 +201,5 @@ public class TextDB extends MyDB{
 			e.printStackTrace();
 		}
 	}
-	
-	
+
 }

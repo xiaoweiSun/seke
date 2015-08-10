@@ -197,7 +197,6 @@ public class HtmlServlet extends HttpServlet {
 		String name = request.getParameter("taskName");
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-hh-mm-ss");
 		String time = sdf.format(new Date());
-		
 		MyDB.getInstance().AddTaskName(name, time);
 		System.out.println(ruleStr);
 		Gson g = new Gson();
@@ -214,7 +213,7 @@ public class HtmlServlet extends HttpServlet {
 		ArrayList<String> urls = new ArrayList<String>();
 		System.out.println(site);
 		urls.add(site);
-		String dest = request.getRealPath(request.getRequestURI())+"/htmlDocument/"+time+"/";
+		String dest = "/home/shawn/crawler/htmlDocument/"+time+"/";
 		int maxCount = Integer.parseInt(countStr);
 		WebCrawler.crawling(urls, dest, maxCount);
 		WebPatternParse wpp = new WebPatternParse();

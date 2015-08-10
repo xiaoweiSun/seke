@@ -36,6 +36,7 @@ function parse() {
 	var site = document.getElementById("site").value;
 	var index = document.getElementById("templates").value;
 	var ruleStr = array[index][2];
+	console.log("ruleStr="+array[index]);
 	var name = document.getElementById("taskName").value;
 	var count = document.getElementById("count").value;
 	$.ajax({
@@ -52,10 +53,10 @@ function parse() {
 		async : false,
 		dataType : "json",
 		contentType:'application/x-www-form-urlencoded; charset=utf-8',
-		success : function( json) {
+		success : function(json) {
 			console.log(json);
 		},
-		error : function( xhr, status ) {
+		error : function(xhr, status ) {
 			return false;
 		},
 		complete : function(xhr, status) {
@@ -81,6 +82,10 @@ function showTemplates(json) {
 </script>
 </head>
 <body>
+<a href="create.jsp">创建模板</a>
+<a href="extract.jsp">知识抽取</a>
+<a href="scan.jsp">结果查询</a>
+<br>
 本次任务名称<input id="taskName"></input>
 <br/>
 <button onclick="scanTemplates()">显示所有模板</button>

@@ -198,6 +198,11 @@ function addList(ruleUnit, index) {
 </script>
 </head>
 <body>
+
+<a href="create.jsp">创建模板</a>
+<a href="extract.jsp">知识抽取</a>
+<a href="scan.jsp">结果查询</a>
+<br>
 <p>模板名称<input id="name" type="text" /></p>
 <p>请输入模板网页<input id="url" type="text" /></p> 
 <button onclick="load()">读取目标网页</button>
