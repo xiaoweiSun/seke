@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+div.publish_info_on_top{
+	margin: 50px auto;
+	margin-bottom: 10px;
+	height: 60px;
+	width: 500px;
+}
+div.publish_method_1{
+	margin: 10px auto;
+	height: 20px;
+	width: 1200px;
+}
+div.publish_method_1_label{
+	margin: 10px 0 0 100px;
+	padding: 10px 0 0 0;
+	height: 20px;
+	width: 800px;
+	float:left;
+}
+div.publish_method_1_button{
+	margin: 10px auto;
+	height: 40px;
+	width: 150px;
+	float:left;
+}
+div.publish_method_2{
+	margin: 30px 0 0 100px;
+	height: 20px;
+	width: 800px;
+}
+div.table{
+	margin:30px 0 0 150px;
+}
+table.table{ 
+	border-collapse:collapse; 
+	width:1000px;
+	height:200px;
+}
+td.label{ 
+	width:50px;
+	height:30px;
+}
+td.input{	
+	width:550px;
+	height:20px;
+}
+input.input{
+	width: 650px;
+	height: 30px;
+	border: 1px solid blue;
+}
+div.publish_bottom{
+	width:600px;
+	height:80px;
+	margin: 0 0 0 200px;
+}
+div.publish_upload{
+	float:left;
+	width:150px;
+	height:40px;
+	margin-left:250px;
+}
+div.publish_reset{
+	float:left;
+	width:150px;
+	height:40px;
+	margin:0 0 0 50px;
+}

@@ -1,0 +1,5 @@
+<g name="root">
+  <c n="test" x="103" y="52" w="120" h="50" c="16030750"/>
+  <c n="test2" x="502" y="93" w="120" h="50" c="16030750"/>
+  <r n="testrelation" f="test" t="test2" i="edge:1|Relation"/>
+</g>

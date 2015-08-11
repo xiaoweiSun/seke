@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+a.key{
+	font: arial,sans-serif;
+	font-size:20px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+table.mainhdr {
+border-bottom: 1px solid #6B90DA;
+font-weight: bold;
+font-size: 133%;
+padding: 2px;
+}
+body{
+	font: 82% arial,sans-serif;
+}
+div.page{
+	width:1200px;
+	margin:0 auto;
+}
+
+div.info{
+	width:1000px;
+	height:20px;
+}
+a.search-btn{
+	color: #333;
+	cursor: pointer;
+	height: 34px;
+	padding-left: 16px;
+	margin-left:10px;
+	position: relative;
+	float:left;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: url(../imgs/button-left-sprite.png) no-repeat scroll 0 0;
+}
+span.search-btn{
+	float:left;
+	font-size: 100%;
+	vertical-align: baseline;
+	padding: 6px 41px 0 26px;
+	height: 28px;
+	background: url(../imgs/button-right-sprite.png) no-repeat scroll 100% 0;
+}
+div.file{
+	width:1000px;
+	margin:0 auto;
+}

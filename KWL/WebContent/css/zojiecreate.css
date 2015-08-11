@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table3{ color:#717171; font-size:14px;}
+.tabletitle{ color:#f3950d; font-size:20px; font-weight:bold;}
+.table3left{ padding-right:5px;}
+.table3right{ padding-left:5px;}
+.tabledown{ color:#f3950d; padding-left:52px; padding-top:10px;}
+.inputnumthree{background:url(../images/pubeditnumbg.png) no-repeat;width:490px; lin-height:109px; border:0px;overflow:hidden;}
+.inputthree{ background:url(../images/pubeditbg.png)  no-repeat; width:490px; height:29px;  border:0px;}
+.decthree{ font-size:16px; font-family:"黑体"; color:#000000; padding-left:30px; height:50px;}
+.tableheight{ height:28px;}

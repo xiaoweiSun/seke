@@ -1,0 +1,13 @@
+<g name="root Graph">
+  <c n="B" x="436" y="44" w="100" h="40" c="16776960"/>
+  <c n="中国" x="201" y="74" w="100" h="40" c="16776960"/>
+  <c n="C" x="204" y="238" w="100" h="40" c="16776960"/>
+  <r n="Relation" f="中国" t="B" i="edge:1|Relation"/>
+  <r n="Relation" f="中国" t="C" i="edge:2|Relation"/>
+  <g name="null">
+    <c n="B_0" x="204" y="202" w="100" h="40" c="16776960" f="B"/>
+    <c n="C_0" x="354" y="117" w="100" h="40" c="16776960" f="C"/>
+    <c n="A_0" x="143" y="41" w="100" h="40" c="16776960" f="中国"/>
+    <r n="Relation" f="A_0" t="B_0" i="edge:3|Relation"/>
+  </g>
+</g>

@@ -1,0 +1,8 @@
+<g name="book" uri="http://knowware.seforge.org/onto/">
+  <c n="书" x="230" y="29" w="120" h="50" c="16030750"/>
+  <c n="译者" x="442" y="129" w="120" h="50" c="16030750"/>
+  <c n="作者" x="46" y="123" w="120" h="50" c="16030750"/>
+  <r n="译" f="译者" t="书" i="edge:2|Relation"/>
+  <r n="著" f="作者" t="书" i="edge:1|Relation"/>
+  <g name="node" uri="http://knowware.seforge.org/onto/"/>
+</g>

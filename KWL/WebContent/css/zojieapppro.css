@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.itembg{ width:100%; margin:0 auto; padding-top:15px;}
+.proitem{ width:800px; background:#F0F0F0; height:214px; margin-bottom:15px; }
+.proitemleft{ float:left; margin:15px;}
+.proitemright{ padding:15px;}
+.itemtitle{ color:#f6960e; font-size:17pt; font-weight:bold;}
+.itemdec{ color:#848484; font-size:11pt;}

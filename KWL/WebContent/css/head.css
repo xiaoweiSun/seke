@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+/* 
+首先是页面标题部分
+
+*/
+div.header{
+	width:1200px;
+	height:150px;
+	margin:0 auto;
+	background-color:#fff;
+}
+/*
+页面logo
+*/
+div.logo{
+	width:157px;
+	height:129px;
+	float:left;
+	
+}
+img{
+	width:100%;
+	height:100%;
+}
+a{
+	cursor:pointer;
+}
+
+/*
+*--------标题右半部分-----------------------------
+*/
+div.header_right{
+	margin-left:100px;
+	float:left;
+	width:900px;
+	height:122px;
+	background-color:#fff;
+}
+
+div.header-title{
+	width:600px;
+	height:132px;
+	float:left;
+}
+div.header-button{
+	height:30px;
+	width:200px;
+	padding-top:50px;
+	padding-left:100px;
+	float:left;
+}
+
+h1{
+	font:34px;
+	padding:20px 0 0 30px;
+}
+/**
+*   -------------------上方图片
+*/
+div.img{
+	display:inline;
+	padding: 0 10px 0  0;
+	margin:0 auto;
+	float:left;
+}
+div.login{
+	display:inline;
+	width:80px;
+	float:left;
+}
+div.main{
+	display:inline;
+	width:80px;
+	margin:0 0 0 10px;
+	float:left;
+}
+/**
+*-----------------------select button 部分组合-----------
+*/
+/*
+页面选择
+*/
+div.selectbar{
+	background-color:#fff;
+	height:30px;
+	margin-top:6px;
+	float:right;
+	position:relative ;
+	vertical-align: baseline;
+}
+div.main{
+	width:72px;
+	background-color:#2983B1;
+	margin-left:10px;
+	float:left;
+	height:30px;
+}
+div.create{
+	width:108px;
+	background-color:#2983B1;
+	margin-left:10px;
+	float:left;
+	height:30px;
+}
+div.Publish{
+	width:126px;
+	margin-left:10px;
+	background-color:#2983B1;
+	float:left;
+	height:30px;
+}
+div.About{
+	width:90px;
+	margin-left:10px;
+	background-color:#2983B1;
+	float:left;
+	height:30px;
+}

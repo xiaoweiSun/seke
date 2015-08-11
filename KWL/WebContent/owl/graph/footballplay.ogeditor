@@ -1,0 +1,5 @@
+<g name="root Graph">
+  <c n="player" x="102" y="32" w="100" h="40" c="16776960"/>
+  <c n="football" x="493" y="69" w="100" h="40" c="16776960"/>
+  <r n="play" f="player" t="football" i="edge:1|Relation" webpattern=""/>
+</g>

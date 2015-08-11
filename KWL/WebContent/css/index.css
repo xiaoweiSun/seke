@@ -1,0 +1,233 @@
+@CHARSET "UTF-8";
+
+/**
+*-------------------------------主要部分背景-------------------------
+*/
+div.body{
+	margin:0 auto;
+	width:1200px;
+	height:220px;
+	background:#fff;
+}
+div.back{
+	width:1200px;
+	height:10px;
+	background-color:#fff;
+}
+div.input{
+	float:left;
+	width:600px;
+	height:60px;
+	margin:30px 0 10px 0;
+	background-color:#fff;
+	vertical-align: middle;
+}
+input.text{
+	float: left;
+	width: 600px;
+	height:30px;
+	margin: 24px 0px 24px 100px;
+	padding: 4px 4px 4px 4px;
+	font: inherit;
+	line-height: normal;
+	background: white;
+	color: inherit;
+	border: 2px solid blue;
+}
+div.button{
+	float: left;
+	width:100px;
+	height:30px;
+	margin:50px 0 0 10px;
+	padding: 11px 3px 0 130px;
+	vertical-align: middle;
+}
+ul.button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+li.button{
+	color: #333;
+	font: 62.5%/1.5 Arial, Helvetica, sans-serif;
+	float:left;
+	margin-left: 15px;
+	list-style:none;
+}
+a.login-btn{
+	float:left;
+	color: #333;;
+	cursor: pointer;
+	height: 34px;
+	width:79px;
+	padding-left: 16px;
+	position:relative;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: url(../imgs/button-left-sprite.png) no-repeat scroll 0 -78px;
+}
+span.login-btn{
+	float:left;
+	width:56px;
+	padding: 6px 16px 0 6px;
+	height: 28px;
+	background: url(../imgs/button-right-sprite.png) no-repeat scroll 100% -78px;
+	font-size: 100%;
+	text-align:center;
+	vertical-align: baseline;
+}
+a.left-button{
+	color: #333;
+	cursor: pointer;
+	height: 34px;
+	margin-right:10px;
+	padding-left: 16px;
+	position: relative;
+	float:left;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: url(../imgs/button-left-sprite.png) no-repeat scroll 0 0;
+}
+span.left-button{
+	float:left;
+	font-size: 100%;
+	vertical-align: baseline;
+	padding: 6px 41px 0 26px;
+	height: 28px;
+	background: url(../imgs/button-right-sprite.png) no-repeat scroll 100% 0;
+}
+a.right-button{
+	float:left;
+	color: #333;;
+	cursor: pointer;
+	height: 34px;
+	margin-left:10px;
+	padding-left: 16px;
+	position:relative;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: url(../imgs/button-left-sprite.png) no-repeat scroll 0 -78px;
+}
+span.right-button{
+	float:left;
+	padding: 6px 16px 0 6px;
+	height: 28px;
+	background: url(../imgs/button-right-sprite.png) no-repeat scroll 100% -78px;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+/**
+*   -------------------添加改动---------------------
+*/
+
+
+
+/**
+*   --------下面是底部元素-----------------------
+*/
+div.foot{
+	background-color:#00F;
+	height:340px;
+	width:1200px;
+	margin:0 auto;
+}
+div.foot_left{
+	float:left;
+	width:49.9%;
+}
+div.foot_left_first{
+	margin: 35px 0 0 70px;
+	width: 500px;
+	height:50px;
+}
+div.foot_left_second{
+	margin: 15px 0 0 100px;
+	width: 400px;
+	height: 100px;
+}
+div.foot_left_third{
+	margin: 15px 0 0 80px;
+	width: 120px;
+	height:40px;
+}
+div.foot_left_forth{
+	margin: 55px 0 0 450px;
+}
+li.select{
+	color: #333;
+	font: 62.5%/1.5 Arial, Helvetica, sans-serif;
+	float:left;
+	margin-left: 15px;
+	list-style:none;
+}
+
+div.selectIcon{
+	width:20px;
+	height:20px;
+}
+img.icon{
+	width:100%;
+	height:100%
+}
+div.foot_right{
+	float:left;
+	width:50.1%;
+}
+div.display_sample_img_top{
+	width:200px;
+	height:200px;
+	margin: 50px 10px 60px 10px;
+	float:left;
+}
+div.display_sample_img_bottom{
+	width:200px;
+	height:300px;
+	margin: 30px 20px 30px 0;
+	float:left;
+}
+div.publish_sample_img_top{
+	width:250px;
+	height:180px;
+	margin: 50px 10px 60px 10px;
+	float:left;
+}
+div.publish_sample_img_bottom{
+	width:250px;
+	height:180px;
+	margin: 140px 20px 30px 0;
+	float:left;
+}
+div.sample_img_left_top{
+	width:150px;
+	height:110px;
+	margin: 10px 10px 10px 10px;
+	padding: 3px 3px 3px 3px;
+	background-color:#F60;
+}
+div.sample_img_left_bottom{
+	width:150px;
+	height:110px;
+	margin: 40px 10px 10px 30px;
+	padding: 3px 3px 3px 3px;
+	background-color:#F60;
+}
+div.sample_img_right_top{
+	width:110px;
+	height:150px;
+	margin: 10px 10px 10px 10px;
+	padding: 3px 3px 3px 3px;
+	background-color:#F60;
+}
+div.sample_left{
+	margin:30px 0 0 120px;
+	float:left;
+}
+div.sample_right{
+	margin:80px 0 0 20px;
+	float:left;
+}

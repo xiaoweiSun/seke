@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.titletxt{color:#f49c20; font-size:35px; font-weight:bold; font-family:"黑体"}
+.decone{ font-family:"黑体"; font-size:14px; padding-left:280px;}
+.dectwo{ font-size:14px; font-family:"黑体"; color:#54769b; padding-left:90px; font-weight:bold;}
+.inputone{ background:url(../images/inputtwo.png)  no-repeat; width:503px; height:29px;  border:0px;}
+.inputtwo{ background:url(../images/inputtwo.png)  no-repeat; width:503px; height:29px;  border:0px;}
+.inputthree{ background:url(../images/pubeditbg.png)  no-repeat; width:482px; height:29px;  border:0px; padding-left:4px; padding-right:4px; font-size:13pt;}
+.inputnumthree{background:url(../images/pubeditnumbg.png) no-repeat;width:482px; height:101px; border:0px;overflow:hidden; padding:4px; font-size:13pt;}
+.decthree{ font-size:16px; font-family:"黑体"; color:#000000; padding-left:30px; height:50px;}
+.tableheight{ height:28px;}
+
+.pubbtnone { float:left;}
+.pubbtnone a{display:inline-block; background:url(../images/createone.jpg) no-repeat top; width:140px; height:36px;}
+.pubbtnone a:hover{display:inline-block; background:url(../images/createone.jpg) no-repeat bottom; width:140px; height:36px;}
+
+.upone{ width:160px;}
+.upone a{display:inline-block; background:url(../images/upload.jpg) no-repeat top;width:120px; height:35px;}
+.upone a:hover{display:inline-block; background:url(../images/upload.jpg) no-repeat bottom; width:120px; height:35px;}
+
+.uptwo{ width:160px;}
+.uptwo a{display:inline-block; background:url(../images/reset.jpg) no-repeat top; width:120px; height:35px;}
+.uptwo a:hover{display:inline-block; background:url(../images/reset.jpg) no-repeat bottom; width:120px; height:35px;}
+
+.table3{ color:#717171; font-size:20px;}
+.tabletitle{ color:#f3950d; font-size:20px; font-weight:bold;}
+.table3left{ padding-right:5px;}
+.table3right{ padding-left:5px;}
+.tabledown{ color:#f3950d; padding-left:52px; padding-top:10px;}
