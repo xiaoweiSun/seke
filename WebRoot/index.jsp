@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		body {
-			padding-top: 50px;		
+			padding-top: 80px;		
 		}	
 		
 		.starter{
@@ -83,13 +83,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</nav>
 
 	<div class="container">
+		<img src="bootstrap/img/icon.png">
 		<div class="starter">
 			<form action="search" method="post" class="form-search">
-				<div class="form-group">
-					<input type="text" name="key" class="input-medium search-query" placeholder="关键词">
-					<input type="text" name="city" class="input-medium search-query" placeholder="城市">
+				<table><tr><td width="250px">
+					<label for="key">职位关键词</label>
+				</td>
+				<td width="250px">
+					<label for="city">城市</label>
+				</td></tr><tr><td>
+					<input style="width:200px" type="text" name="key" id="key" class="form-control">
+				</td>
+				<td>
+					<input style="width:200px" type="text" name="city" id="city" class="form-control">
+					<input type="hidden" name="offset" value="0">
+				</td>
+				<td>
 					<button type="submit" class="btn">Search</button>
-				</div>
+				</td></tr></table>
 			</form>
 		</div>
 	</div><!-- /.container -->

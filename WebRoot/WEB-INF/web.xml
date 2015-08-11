@@ -38,4 +38,14 @@
   	<servlet-name>springMvcDispatcher</servlet-name>
   	<url-pattern>/</url-pattern>
   </servlet-mapping>
+  
+  <!-- system config -->
+  <filter>
+  	<filter-name>systemContext</filter-name>
+  	<filter-class>cn.edu.pku.filter.SystemContextFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>systemContext</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
 </web-app>

@@ -27,7 +27,7 @@
     
     <!-- aop configuration -->
     <aop:config>
-    	<aop:pointcut expression="execution(* cn.edu.pku.service.*.*(..))" id="allMethods"/>
+    	<aop:pointcut expression="execution(* cn.edu.pku.*.service.*.*(..))" id="allMethods"/>
     	<aop:advisor advice-ref="transactionAdvice" pointcut-ref="allMethods"/>
     </aop:config>
     

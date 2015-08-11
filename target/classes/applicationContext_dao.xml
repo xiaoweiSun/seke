@@ -41,7 +41,7 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="packagesToScan">
 			<list>
-				<value>cn.edu.pku.domain</value>
+				<value>cn.edu.pku.user.domain</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
